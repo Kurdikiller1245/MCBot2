@@ -61,7 +61,7 @@ shulker.on("message", function(message) {
     }
 });
 
-shulker.login(c.NDQyNzQ2Njg4MDU5NDczOTM0.DdDTtg.baZZZOYr6a3LmdCDBV73SeZ3YSQ;
+shulker.login(c.DISCORD_TOKEN);
 
 var ipaddress = process.env.OPENSHIFT_NODEJS_IP || process.env.IP || "193.70.80.37";
 var serverport = process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || c.PORT;
