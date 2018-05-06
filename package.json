@@ -1,32 +1,12 @@
 {
-  "name": "shulker",
+  "name": "relaxcraft chat",
+  "description": "relaxcraft chat",
   "version": "1.0.0",
-  "description": "A Discord to Minecraft Chat Gateway",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "lint": "jshint *.js",
-    "test": "npm run lint"
+    "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/destruc7i0n/shulker.git"
-  },
-  "keywords": [
-    "Discord",
-    "Bot"
-  ],
-  "author": "destruc7i0n",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/destruc7i0n/shulker/issues"
-  },
-  "homepage": "https://github.com/destruc7i0n/shulker#readme",
   "dependencies": {
-    "discord.js": "^11.0.0",
-    "express": "^4.13.3"
-  },
-  "devDependencies": {
-    "jshint": "^2.9.1-rc2"
+    "discord.js": "11.1.0"
   }
 }
