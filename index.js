@@ -63,7 +63,7 @@ shulker.on("message", function(message) {
 
 shulker.login(c.DISCORD_TOKEN);
 
-var ipaddress = process.env.OPENSHIFT_NODEJS_IP || process.env.IP || "127.0.0.1";
+var ipaddress = process.env.OPENSHIFT_NODEJS_IP || process.env.IP || "193.70.80.37";
 var serverport = process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || c.PORT;
 if (process.env.OPENSHIFT_NODEJS_IP !== undefined) {
     http.listen(serverport, ipaddress, function() {
